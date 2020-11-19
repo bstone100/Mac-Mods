@@ -1,0 +1,22 @@
+{
+  "title": "PrtSc to take screenshot",
+  "rules": [
+    {
+      "description": "PrtSc to Command+Shift+3",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "print_screen"
+          },
+          "to": [
+            {
+              "key_code": "3",
+              "modifiers": ["command", "shift"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
