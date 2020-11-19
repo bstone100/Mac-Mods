@@ -1,5 +1,7 @@
 # Mac-Macros
+
 Complex Modifications for Karabiner Elements
+
 Most keyboards built for Windows have keys such as PrtSc, ScrLk, Pause, and Ins that are functionless in macOS.
 Using .json files, users can make those keys output different combinations of keys.
 An example is making PrtSc output to command + shift + 3, which is a screenshot in macOS.
