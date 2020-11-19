@@ -1,0 +1,39 @@
+{
+  "title": "ScrLk to copy & Pause to paste",
+  "rules": [
+    {
+      "description": "ScrLk to Copy",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "scroll_lock"
+          },
+          "to": [
+            {
+              "key_code": "c",
+              "modifiers": ["command"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Pause to Paste",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "pause"
+          },
+          "to": [
+            {
+              "key_code": "v",
+              "modifiers": ["command"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
