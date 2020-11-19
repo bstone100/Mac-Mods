@@ -1,0 +1,39 @@
+{
+  "title": "Insert to Select All and Forward delete to Close Window",
+  "rules": [
+    {
+      "description": "Insert to Command+A",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "insert"
+          },
+          "to": [
+            {
+              "key_code": "a",
+              "modifiers": ["command"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Forward delete to Command+W",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "delete_forward"
+          },
+          "to": [
+            {
+              "key_code": "w",
+              "modifiers": ["command"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
