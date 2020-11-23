@@ -1,0 +1,39 @@
+{
+  "title": "PgUp and PgDn to cycle through tabs",
+  "rules": [
+    {
+      "description": "PgUp is control + tab",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "page_up"
+          },
+          "to": [
+            {
+              "key_code": "tab",
+              "modifiers": ["control"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "PgDn is control + shift + tab",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "page_down"
+          },
+          "to": [
+            {
+              "key_code": "tab",
+              "modifiers": ["control", "shift"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
